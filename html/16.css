@@ -1,0 +1,59 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 484px;
+    height: 100%;
+    justify-content: left;
+    font-family: sans-serif;
+    padding-top: 300px;
+}
+
+span {
+	color:  #013453;
+	font-size: 80px;
+	margin-left: 10px;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: url('./image\ 8.png') 50% / 100%;
+    padding-left: 420px;
+}
+
+h3 {
+    font-size: 48px;
+    margin-bottom: 44px;
+    display: flex;
+    align-items: centr;
+    color: #303131;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 56px;
+    background-color: transparent;
+    font-size: 18px;
+    width: 265px;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 1px;
+
+}
+
+
+button {
+    padding: 16px 120px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #013453;
+    border-radius: 4px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}

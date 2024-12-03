@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center ;
+    background-color: wheat;
+    
+}
+
+
+div {
+    margin: 20px 20px 20px 20px; 
+    background-color: aliceblue;  
+    width: 353px; 
+}
+img {
+    margin-left:20px ;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+p {
+margin: 10px;
+}
+h1 {
+    margin: 10px;
+}
+
+.ww{ 
+background-color: chocolate;
+color: rgb(0, 0, 0);
+}
+
+.ff {
+    background-color: rgb(39, 231, 0);
+color: rgb(0, 0, 0);
+}

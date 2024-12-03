@@ -1,0 +1,65 @@
+.buy-ticket {
+    font-size: 20px;
+    background-color: #FF732B;
+    color: rgb(255, 255, 255);
+    padding-left: 68.5px;
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    padding-right: 68.5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: none;
+}
+
+.hat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF6D9;
+}
+
+.cats {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFEEAD;
+    padding: 80px;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+}
+
+.cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    max-width: 353px;
+    list-style: none;
+    padding: 20px;
+}
+
+h3 {
+    align-self: flex-start;
+}
+
+.ww {
+    font-size: 20px;
+    background-color: #FF732B;
+    color: rgb(255, 255, 255);
+    padding-left: 65px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 65px;
+    border: none;
+    width: 385px;
+    margin-top: 44px;
+}

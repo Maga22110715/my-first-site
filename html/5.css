@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center ;
+    background-color: wheat;
+    
+}
+
+
+div {
+    margin: 20px 20px 20px 20px; 
+    background-color: rgb(255, 251, 251);  
+}
+img {
+    margin-left:20px ;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.tt {
+margin-inline-start: 50px;
+padding-inline-end: 50%;
+}
+
+button {
+    margin-inline-start: 50px;
+padding-inline-end: 50%;
+}
+.ww {
+    margin: 20px;
+}
+
+.ff {
+    margin: 20px;
+    
+}
+
+.ll {
+    margin: 20px;
+}
+
+.text {
+    margin: 20px;
+}
+
+.kk {
+    margin: 20px;
+}
+
+p {
+margin: 20px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+        }
+
+        .options {
+            display: inline-flex;
+            flex-direction: column;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 10px;
+            font-size: 30px;
+
+            >label {
+                color: #fff;
+            }
+
+            >input {
+                border: none;
+                padding: 5px 10px;
+                margin: 5px;
+                background-color: #555;
+            }
+        }
+
+        .container {
+            width: 600px;
+            height: 600px;
+            background-color: wheat;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            display: flex;
+        }
+
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: dodgerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="options">
+        <label>
+            justify-content:
+            <input class="justify" type="text">
+        </label>
+        <label>
+            align-items:
+            <input class="align" type="text">
+        </label>
+    </div>
+
+    <div class="container">
+        <div class="box"></div>
+    </div>
+
+    <script>
+        let container = document.querySelector('.container');
+        let justify = document.querySelector('.justify');
+        let align = document.querySelector('.align');
+
+        justify.addEventListener('input', () => {
+            container.style.justifyContent = justify.value;
+        })
+
+        align.addEventListener('input', () => {
+            container.style.alignItems = align.value;
+        })
+    </script>
+</body>
+
+</html>
